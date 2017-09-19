@@ -1,0 +1,30 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "mongo/mongoose news scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealtimetourist/mongo-scraper.git"
+  },
+  "author": "Don Bedwell timetourst@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealtimetourist/mongo-scraper/issues"
+  },
+  "homepage": "https://github.com/therealtimetourist/mongo-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "request": "^2.82.0"
+  }
+}
